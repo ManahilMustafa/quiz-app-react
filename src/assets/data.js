@@ -1,0 +1,42 @@
+export const data = [
+    {
+      question: "What is a React component?",
+      option1: "A JavaScript function or class that returns a React element",
+      option2: "A CSS stylesheet",
+      option3: "A database",
+      option4: "An HTML template",
+      ans: 1,
+    },
+    {
+      question: " What is the purpose of the useState hook in React?",
+      option1: "To directly manipulate the DOM",
+      option2: "To manage local state in a functional component",
+      option3: "To perform API requests",
+      option4: "To pass props between components",
+      ans: 2,
+    },
+    {
+      question: " Which method is used to pass data from parent to child components?",
+      option1: "useContext",
+      option2: "useEffect",
+      option3: "Props",
+      option4: "useReducer",
+      ans: 3,
+    },
+    {
+      question: "What is the purpose of useEffect in React?",
+      option1: "To handle lifecycle events like componentDidMount and componentDidUpdate",
+      option2: "To create context providers",
+      option3: "To handle animations",
+      option4: "To define custom hooks",
+      ans: 1,
+    },
+    {
+      question: " How do you create a new React project using Vite?",
+      option1: "npx create-react-app my-app",
+      option2: "npm install -g create-vite-app",
+      option3: "npm create vite@latest",
+      option4: "npx create-next-app my-app",
+      ans: 3,
+    },
+  ];
